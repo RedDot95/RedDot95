@@ -9,8 +9,8 @@ My main focus is **Applied AI Implementation, Enterprise Automation and AI Opera
 
 | Project | What to inspect | Current scope |
 |---|---|---|
-| [AI Knowledge Operations Lab](https://github.com/RedDot95/ai-knowledge-ops-lab) | Source-linked SEC disclosure pipeline, auditable model-output import, review controls, regression tests and recorded replay | M1 working research milestone; 15-source rules replay and separate 3-source AI-assisted demonstration. Labels and model quality remain unvalidated |
-| [Value Rail](https://github.com/RedDot95/value-rail-mvp) | CoinGate clearance ingestion, deterministic offer filtering, persisted signal feed and optional worker/UI | Evolving monitoring MVP; source availability, actual delivery and commercial outcomes are separate concerns |
+| [AI Knowledge Operations Lab](https://github.com/SFS-Labs/ai-knowledge-ops-lab) | Source-linked SEC disclosure pipeline, auditable model-output import, review controls, regression tests and recorded replay | M1 working research milestone; 15-source rules replay and separate 3-source AI-assisted demonstration. Labels and model quality remain unvalidated |
+| [Value Rail](https://github.com/SFS-Labs/value-rail-mvp) | CoinGate clearance ingestion, deterministic offer filtering, persisted signal feed and optional worker/UI | Evolving monitoring MVP; source availability, actual delivery and commercial outcomes are separate concerns |
 
 These projects grow from ongoing interests. Their READMEs distinguish implemented behavior, observed verification and planned work.
 
@@ -30,4 +30,4 @@ Public references will be added only with permission and after delivery. No comp
 
 ---
 
-**SFS.Labs is the display identity of this personal portfolio.** The GitHub account remains [RedDot95](https://github.com/RedDot95); it is not affiliated with the separate GitHub organization using the SFSLabs handle.
+**SFS.Labs is the display identity of this personal portfolio.** The GitHub account is [SFS-Labs](https://github.com/SFS-Labs), migrated from RedDot95 on 24 October 2026.
