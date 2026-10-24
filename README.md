@@ -1,4 +1,4 @@
-# SFSLabs
+# SFS.Labs
 ### Applied AI implementation · workflow automation · research operations
 
 I'm Mathias Steinbach, a Finance & Capital Markets student at TH Köln, building practical systems at the intersection of financial research, data quality and AI-assisted development.
@@ -30,4 +30,4 @@ Public references will be added only with permission and after delivery. No comp
 
 ---
 
-**SFSLabs is the display identity of this personal portfolio.** The GitHub account remains [RedDot95](https://github.com/RedDot95); it is not affiliated with the separate GitHub organization using the SFSLabs handle.
+**SFS.Labs is the display identity of this personal portfolio.** The GitHub account remains [RedDot95](https://github.com/RedDot95); it is not affiliated with the separate GitHub organization using the SFSLabs handle.
