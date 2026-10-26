@@ -11,6 +11,7 @@ My main focus is **Applied AI Implementation, Enterprise Automation and AI Opera
 |---|---|---|
 | [AI Knowledge Operations Lab](https://github.com/SFS-Labs/ai-knowledge-ops-lab) | Source-linked SEC disclosure pipeline, auditable model-output import, review controls, regression tests and recorded replay | M1 working research milestone; 15-source rules replay and separate 3-source AI-assisted demonstration. Labels and model quality remain unvalidated |
 | [Value Rail](https://github.com/SFS-Labs/value-rail-mvp) | CoinGate clearance ingestion, deterministic offer filtering, persisted signal feed and optional worker/UI | Evolving monitoring MVP; source availability, actual delivery and commercial outcomes are separate concerns |
+| [POINCARÉ — Solidity Security Review](security-review/case-studies/poincare-2026.md) | Independent scoped review of 7 Solidity files; 2 Low findings, 8 Notes; developer remediation and separate source-level follow-up | Delivered Oct 2026; 222 original Foundry tests independently reproduced; follow-up fixes examined, 240 revised tests maintainer-reported only |
 
 These projects grow from ongoing interests. Their READMEs distinguish implemented behavior, observed verification and planned work.
 
@@ -26,7 +27,7 @@ I am building an **independent manual pre-launch review practice** alongside my 
 - [Scope template](security-review/SCOPE_TEMPLATE.md)
 - [Finding and report format](security-review/REPORT_TEMPLATE.md)
 
-Public references will be added only with permission and after delivery. No completed client engagement, audit certification or security guarantee is implied.
+**Delivered client reference:** [POINCARÉ — Security Review to Remediation](security-review/case-studies/poincare-2026.md) (October 2026). The review is commit-pinned, limited in scope, and includes a separate remediation source assessment. It is **not** a firm audit, certification, complete economic-security assessment or mainnet safety guarantee.
 
 ---
 
