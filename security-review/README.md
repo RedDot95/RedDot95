@@ -1,6 +1,6 @@
 # Independent Solidity review methodology
 
-This describes an evolving manual pre-launch code-review practice. It is a process and reporting structure, not evidence that a client review has been completed or that every technique below has already been applied to a real engagement.
+This describes an evolving independent, scope-limited manual pre-launch review practice. The [POINCARÉ client case study](case-studies/poincare-2026.md) documents one completed review, the developer's remediation and a separate source-level follow-up, including explicit verification limits. Methodology below is not proof that every technique was applied to every engagement.
 
 ## Review lifecycle
 
@@ -19,8 +19,10 @@ Use [the report template](REPORT_TEMPLATE.md). High/medium/low labels require a 
 
 The initial offer is a manual pre-launch review without upfront payment, with voluntary compensation after receipt of the report. Actual scope, timing, confidentiality, usage rights and delivery terms must be agreed for each engagement. No certification, formal audit-firm status, insurance, exhaustive vulnerability coverage or security guarantee is claimed.
 
-Client identities, relationships, code, findings, reports and testimonials are published only with explicit permission. Until then, public portfolio material contains methodology and blank templates only. An active review elsewhere is not duplicated or managed in this repository.
+Client identities, relationships, code, findings, reports and testimonials are published only within the permission and confidentiality boundaries agreed for each engagement. Confidential client deliverables and private evidence bundles are not hosted here.
 
 ## Evidence register
 
-No client reference or completed-review claim is published here. Add a reference only after delivery and disclosure permission, including the reviewed commit, agreed scope, date, limitations and permitted report link.
+- **POINCARÉ (October 2026):** [Public case study](case-studies/poincare-2026.md) — seven scoped Solidity files, two Low findings, eight informational observations, and a second source-level review of the maintainer's nine remediation commits. Original review and follow-up are pinned to distinct revisions; the fixed branch's 240 tests were maintainer-reported, **not independently rerun**.
+
+Each public case should identify the exact reviewed revision, agreed scope, methods, limits, developer work versus reviewer work, and any outstanding conditions.
