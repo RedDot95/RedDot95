@@ -1,35 +1,53 @@
 # SFS.Labs
-### Applied AI implementation · workflow automation · research operations
+### AI Solutions · Automation · Systems Integration · Technical Delivery
 
-I'm Mathias Steinbach, a Finance & Capital Markets student at TH Köln, building practical systems at the intersection of financial research, data quality and AI-assisted development.
+I'm Mathias Steinbach. I work at the intersection of business requirements, AI-assisted software implementation, integration architecture, and evidence-led engineering. My academic background is Finance & Capital Markets (B.Sc., TH Köln, ongoing); my practical background includes technical customer onboarding and hands-on development direction across cloud, data, security, and agent-tool integrations.
 
-My main focus is **Applied AI Implementation, Enterprise Automation and AI Operations**: connecting inputs, validation, review and useful outputs. I am interested in working-student roles where I can help implement and operate these workflows.
+**Current focus:** paid, real-world B2B AI implementations with direct customer and engineering-team exposure — from discovery and requirements through APIs, testing, deployment and operations. I am open to junior, associate and technically substantive entry roles; the **work** matters more than the title.
 
-## Selected work
+## How I approach engineering
 
-| Project | What to inspect | Current scope |
-|---|---|---|
-| **[SFS Genomics — AI-Native Genomic Intelligence Platform](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/featured-engineering-project-sfs-genomics/sfs-genomics)** | [Live mobile interface](https://sfs-labs.github.io/lagoon/), [source + CI](https://github.com/SFS-Labs/lagoon/pull/1), 607k-call EU Cloudflare data pipeline, OAuth PKCE/DCR remote MCP for ChatGPT, scientific validation gates | Authenticated end-to-end workflow and 256-shard D1 reconciliation verified; five-locus research validation pilot; **not** clinically validated. Genomics source currently on a separate feature branch in the legacy lagoon repository |
-| [AI Knowledge Operations Lab](https://github.com/SFS-Labs/ai-knowledge-ops-lab) | Source-linked SEC disclosure pipeline, auditable model-output import, review controls, regression tests and recorded replay | M1 working research milestone; 15-source rules replay and separate 3-source AI-assisted demonstration. Labels and model quality remain unvalidated |
-| [Value Rail](https://github.com/SFS-Labs/value-rail-mvp) | CoinGate clearance ingestion, deterministic offer filtering, persisted signal feed and optional worker/UI | Evolving monitoring MVP; source availability, actual delivery and commercial outcomes are separate concerns |
-| [POINCARÉ — Solidity Security Review](security-review/case-studies/poincare-2026.md) | Independent scoped review of 7 Solidity files; 2 Low findings, 8 Notes; developer remediation and separate source-level follow-up | Delivered Oct 2026; 222 original Foundry tests independently reproduced; follow-up fixes examined, 240 revised tests maintainer-reported only |
+I don't treat tool fluency or a plausible demo as deployment evidence. I prefer short feedback loops:
 
-These projects grow from ongoing interests. Their READMEs distinguish implemented behavior, observed verification and planned work.
+1. **Frame the actual problem:** identify user outcomes, operating context, data boundaries and acceptance criteria.
+2. **Design the full path:** connect inputs, validation, authentication, persistence, tool interfaces and observable outputs.
+3. **Build with AI assistance where appropriate:** coordinate implementation, inspect changes and establish repeatable tests rather than assume generated code is correct.
+4. **Investigate failures at the affected layer:** reproduce, isolate the root cause and update the surrounding architecture or operational harness when necessary.
+5. **Re-verify the end-to-end behavior:** separate CI success, client interoperability, data correctness and live-service availability.
+6. **Record the remaining limitations:** document what was observed, what is inferred and what remains untested.
 
-## How I work with AI
+**Concrete example:** In SFS Genomics, an OAuth discovery conflict, Cloudflare D1 read-quota exhaustion, mobile-file constraints and a source-repository migration each required a different engineering response. The resulting project records separate acceptance evidence for persistence, protected MCP client calls, OAuth protocol checks and bounded scientific validation.
 
-I define the problems, requirements and development direction. Copilot and other AI assistants contribute implementation, review, tests and documentation; project-level attribution and Git history show the evidence. AI-generated code still requires verification. A commit under my account does not by itself mean that every line was manually written by me.
+## Selected engineering and delivery evidence
 
-## Additional specialization: Solidity security reviewing
+| Work | What it demonstrates | Verified scope |
+| --- | --- | --- |
+| **[SFS Genomics](https://github.com/SFS-Labs/sfs-genomics)** · [engineering study](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/featured-engineering-project-sfs-genomics/sfs-genomics) | iPhone browser import → EU Cloudflare D1 → OAuth PKCE/DCR → authenticated remote MCP / ChatGPT integration → public GWAS/Ensembl evidence checks | 607,051 SNP calls reconciled over 256 D1 partitions; recorded authenticated client calls; scoped CI and five-locus reference QC. Not clinical-grade or guaranteed continuously available. |
+| **[SFS Education Funding](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/featured-engineering-project-sfs-education-funding/sfs-education-funding)** | TypeScript Worker, scheduled collection, source provenance, versioned documents, pass/fail/unknown rules, seven bounded MCP tools | Deployed engineering prototype with 725 stored documents and 2,025 claims at the dated checkpoint; **zero** verified application-ready programs. [Source repository](https://github.com/SFS-Labs/education-funding-mcp) currently private. |
+| **[POINCARÉ review](security-review/case-studies/poincare-2026.md)** | External scoped Solidity review, independently reproduced test suite, actionable developer findings and source-level remediation follow-up | Two low-severity findings, eight notes; 222 original Foundry tests independently reproduced. Maintainer's revised-suite result not independently rerun. |
+| **[Value Rail](https://github.com/SFS-Labs/value-rail-mvp)** | Source adapter, state change detection, scheduled JSON feed, optional worker, deterministic testing | 326 offline tests at a documented checkpoint; successful CI/feed runs, no claim of current profit or phone delivery. |
+| **[AI Knowledge Ops Lab](https://github.com/SFS-Labs/ai-knowledge-ops-lab)** | Real SEC-source ingestion, input hashing, auditable model-output import, review routing and reproducible quality checks | 15 development sources, separate three-source AI-assisted replay and 32 regression tests. No validated production model benchmark. |
 
-I am building an **independent manual pre-launch review practice** alongside my AI/automation work. The focus is explicit scope, reproducible reasoning, actionable findings and clear limitations.
+## Working with AI tools
 
-- [Review methodology](security-review/README.md)
-- [Scope template](security-review/SCOPE_TEMPLATE.md)
-- [Finding and report format](security-review/REPORT_TEMPLATE.md)
+I define the problem, technical boundaries, requirements and acceptance evidence. I use AI-assisted development with explicit review, tool-calling workflows, CI, and defect reproduction to accelerate implementation. Code and commit attribution alone do not establish that every line was authored manually. I distinguish **implemented**, **tested**, and **observed in operation**.
 
-**Delivered client reference:** [POINCARÉ — Security Review to Remediation](security-review/case-studies/poincare-2026.md) (October 2026). The review is commit-pinned, limited in scope, and includes a separate remediation source assessment. It is **not** a firm audit, certification, complete economic-security assessment or mainnet safety guarantee.
+### Skills evidenced by the projects
+- **Integration:** REST/API design, OAuth 2.0, PKCE, MCP, Cloudflare Workers, D1/KV, GitHub Actions and source control.
+- **Implementation:** AI-assisted Python/JavaScript/TypeScript, validation pipelines, deterministic tests, data-model boundaries and error semantics.
+- **Delivery:** customer issue analysis, requirements capture, acceptance criteria, reproducible verification, documentation and technical trade-offs.
 
----
+## Professional development
 
-**SFS.Labs is the display identity of this personal portfolio.** The GitHub account is [SFS-Labs](https://github.com/SFS-Labs), migrated from RedDot95 on 24 October 2026.
+- **MIT Professional Education:** Applied Agentic AI for Organizational Transformation (70 hours, completed May 2026).
+- **Oracle:** Building Agentic Workflows for Fusion Applications using Oracle AI Agent Studio (16 hours, completed March 2026).
+- **ACAMS:** Certified Cryptoasset Anti-Financial Crime Specialist (CCAS, September 2025).
+- **TH Köln:** B.Sc. Finance and Capital Markets, ongoing since September 2025.
+
+## Links
+
+- [Published technical documentation](https://sfs-labs.gitbook.io/sfs-labs-docs/)
+- [LinkedIn](https://www.linkedin.com/in/mathias-steinbach-513869446/)
+- [Contact](mailto:mathias.steinbach@icloud.com)
+
+**SFS.Labs** is the public display identity for personal engineering work associated with **Sigma Finance Systems**. It is not a claim of an incorporated company, paid enterprise deployments or an independently operated security-audit firm.
